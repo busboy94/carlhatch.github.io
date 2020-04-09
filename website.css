@@ -1,0 +1,180 @@
+body {
+    background-color:lightgrey;
+    font-family:"palatino", "Georgia", 'Times New Roman', Times, serif ;
+    color:darkslategrey;
+}
+
+h1 {
+    text-align:left; 
+    color:darkslategray;
+}
+
+h2 {
+    text-align:center; 
+    padding: 0% 1% 1% 1%;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration:underline;
+}
+
+p {
+    text-align:left;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+}
+
+#navbar {
+    background-color:darkseagreen;
+    border:2px solid lightslategray;
+}
+
+li {
+    display:inline;
+    text-transform:uppercase;
+}
+
+a {
+    color:salmon;
+    text-decoration:none;
+}
+
+.navlink {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1% 3% 1% 3%;
+}
+
+.portlink {
+   color: darkslategray;
+   padding: 10px 30px 10px 30px;
+   
+}
+
+.portlink:hover {
+    color: white;
+}
+
+#portbarcontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.intextlink:hover {
+    color: white;
+}
+
+
+#portbar {
+    display:inline-block;
+    text-align: center;
+    position: relative;
+}
+
+
+a.navlink:hover {
+    background-color:salmon;
+}
+
+#pictureofme {
+    width: 22%;
+    position: absolute;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-width: 2%;
+    left:10%;
+    top:200px;
+}
+
+
+#biography {
+    width: 50%;
+    position: absolute;
+    left: 500px;
+    top: 180px;
+}
+
+#about {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.writingcenter {
+    text-align: center;
+}
+
+#musicplayer {
+    display: block;
+    margin: auto;
+}
+
+#musicdescription {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#featurepoemtext {
+    font-family:"palatino", "Georgia", 'Times New Roman', Times, serif ;
+    display:inline-block;
+    text-align: left;
+}
+
+#currentpoem {
+    text-align: center;
+}
+
+#comedyreel {
+    display: block;
+   margin: 0 auto;
+
+   
+}
+#currentskateclip {
+
+    display: block;
+    margin: 0 auto;
+}
+
+#gigglefest {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.drawing {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    outline-style: solid;
+    outline-color: darkslategray;
+    outline-width: 3px;
+    display: block;
+
+}
+
+.comic {
+    height: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    display:block;
+    outline-style: solid;
+    outline-color: darkslategray;
+    outline-width: 3px;
+}
+
+#contactform {
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+
+
